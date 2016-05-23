@@ -1,0 +1,27 @@
+Cover letter for developer.
+
+I worked on two large projects:
+http://www.mediacatalog.ru. External advertisement service. Mostly worked with parsing system of the information that came from customers. (xml, xls)
+http://inpos.ru. One of the largest in Russia network of pharmacies. Both client and server sides were written in Ruby on Rails. >2000 client nodes. 15+developers, 10+ testers, 5+support team.
+Both were remote jobs.
+
+Experience with ruby and rails: >2 years.
+Version control: git, - branching, merging, pull requests, rebasing, github
+Code review: hound, individual review for each pull request.
+Deploy: capistrano, chef
+Databases: most experience was with mysql, worked with postgresql, sqlite
+Tests: mostly rspec
+Clouds: worked mostly with DigitalOcean
+Bug tracker: I configured and used Redmine + integration with clients’ bug tracking system + configuration of addons. Helpscout, Jira.
+CI: configured and used jenkins, teamcity. Made a config for both - server and client sides of the app. Automated tests run triggered by each commit.
+Development environment: mac os, ruby 2.0>, most experience with rails 3>, some experience with rails 4. Familiar with ruby style guide, know what is a stinky code is, and about necessity of fat models and skinny controllers.
+
+Unfortunately I can’t show much code which I wrote(since the projects were not open-source), but here are some examples:
+Some code examples:
+Simple but working code for starting\stopping virtual machines on Azure cloud. https://github.com/ezhenezhen/codes_examples/blob/master/my_code/azure_arm.rb
+Interaction between helpscout and clients’ bug tracking system. https://github.com/ezhenezhen/codes_examples/blob/master/my_code/parse_a5_task.rake
+interaction between helpscout and ringcloud: https://github.com/ezhenezhen/codes_examples/blob/master/my_code/parse_ringcloud_task.rake
+
+Not perfect but working website examples created for polishing rails knowledges some time ago:
+http://ukrstyle.herokuapp.com - just a website created few years ago for testing purposes. That was just a heroku deployment test
+http://tickets.cn.ua - a prototype for ticket converting from paper tickets to e-tickets(pdf), u: broker@broker.com, p: brokerbroker. After entering all the desired information you can get an e-ticket with working barcode. AWS + ubuntu + puma + capistrano + nginx + rails 4.2.1 + sqlite
